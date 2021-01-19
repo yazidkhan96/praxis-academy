@@ -1,0 +1,180 @@
+Cls : membersihkan terminal
+$host.PrivateData.ErrorBackgroundColor = "White" :
+date : Tuesday, January 19, 2021 11:47:57 AM
+cd : berpindah direktori
+dir : Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          9/6/2020   8:21 PM                .android
+d-----          9/6/2020   2:20 PM                .AndroidStudio4.0
+d-----          9/9/2020  10:48 AM                .config
+d-----         1/11/2021  11:37 AM                .eclipse
+d-----          9/6/2020   8:18 PM                .gradle
+d-----         9/30/2020   6:10 AM                .ssh
+d-----         1/19/2021   7:37 AM                .tooling
+d-----          9/9/2020  10:42 AM                .vscode
+d-r---          9/6/2020  12:57 PM                3D Objects
+d-----          9/6/2020   8:03 PM                AndroidStudioProjects
+d-r---          9/6/2020  12:57 PM                Contacts
+d-r---        11/18/2020  11:27 PM                Creative Cloud Files
+d-----          9/6/2020   1:04 PM                Documents
+d-r---         1/19/2021  11:44 AM                Downloads
+d-r---          9/6/2020  12:57 PM                Favorites
+d-----        10/22/2020   2:22 PM                go
+d-r---          9/6/2020  12:58 PM                Links
+d-r---        12/18/2020   9:07 AM                Music
+d-----         9/10/2020  10:34 AM                my-app
+d-----          1/7/2021   6:36 AM                node_modules
+dar--l        12/17/2020   2:14 PM                OneDrive
+d-----         9/19/2020  10:28 PM                Postman
+d-r---          9/6/2020  12:58 PM                Saved Games
+d-r---          9/6/2020  12:59 PM                Searches
+d-r---          1/4/2021   1:55 PM                Videos
+-a----         1/11/2021   2:06 PM            107 .gitconfig
+-a----        10/13/2020   8:56 PM             16 .npmrc
+-a----         1/11/2021  11:03 AM             74 .nuxtrc
+-a----         1/11/2021  10:54 AM            121 .yarnrc
+-a----          1/7/2021   6:36 AM          58392 package-lock.json
+-a----          1/7/2021   6:36 AM            263 package.json
+-a----          9/6/2020   5:32 PM          28588 yarn.lock
+exit : Keluar terminal
+mkdir : membuat suatu direktori
+clear : membersihkan terminal
+help : TOPIC
+    Windows PowerShell Help System
+
+SHORT DESCRIPTION
+    Displays help about Windows PowerShell cmdlets and concepts.
+
+LONG DESCRIPTION
+    Windows PowerShell Help describes Windows PowerShell cmdlets,
+    functions, scripts, and modules, and explains concepts, including
+    the elements of the Windows PowerShell language.
+
+    Windows PowerShell does not include help files, but you can read the
+    help topics online, or use the Update-Help cmdlet to download help files
+    to your computer and then use the Get-Help cmdlet to display the help
+    topics at the command line.
+
+    You can also use the Update-Help cmdlet to download updated help files
+    as they are released so that your local help content is never obsolete.
+
+    Without help files, Get-Help displays auto-generated help for cmdlets,
+    functions, and scripts.
+
+
+  ONLINE HELP
+    You can find help for Windows PowerShell online in the TechNet Library
+    beginning at http://go.microsoft.com/fwlink/?LinkID=108518.
+
+    To open online help for any cmdlet or function, type:
+
+        Get-Help <cmdlet-name> -Online
+ls : ----                 -------------         ------ ----
+d-----          9/6/2020   8:21 PM                .android
+d-----          9/6/2020   2:20 PM                .AndroidStudio4.0
+d-----          9/9/2020  10:48 AM                .config
+d-----         1/11/2021  11:37 AM                .eclipse
+d-----          9/6/2020   8:18 PM                .gradle
+d-----         9/30/2020   6:10 AM                .ssh
+d-----         1/19/2021   7:37 AM                .tooling
+d-----          9/9/2020  10:42 AM                .vscode
+d-r---          9/6/2020  12:57 PM                3D Objects
+d-----          9/6/2020   8:03 PM                AndroidStudioProjects
+d-r---          9/6/2020  12:57 PM                Contacts
+d-r---        11/18/2020  11:27 PM                Creative Cloud Files
+d-----          9/6/2020   1:04 PM                Documents
+d-r---         1/19/2021  11:44 AM                Downloads
+d-r---          9/6/2020  12:57 PM                Favorites
+d-----        10/22/2020   2:22 PM                go
+d-r---          9/6/2020  12:58 PM                Links
+d-r---        12/18/2020   9:07 AM                Music
+d-----         9/10/2020  10:34 AM                my-app
+d-----          1/7/2021   6:36 AM                node_modules
+dar--l        12/17/2020   2:14 PM                OneDrive
+d-----         9/19/2020  10:28 PM                Postman
+d-r---          9/6/2020  12:58 PM                Saved Games
+d-r---          9/6/2020  12:59 PM                Searches
+d-r---          1/4/2021   1:55 PM                Videos
+-a----         1/11/2021   2:06 PM            107 .gitconfig
+-a----        10/13/2020   8:56 PM             16 .npmrc
+-a----         1/11/2021  11:03 AM             74 .nuxtrc
+-a----         1/11/2021  10:54 AM            121 .yarnrc
+-a----          1/7/2021   6:36 AM          58392 package-lock.json
+-a----          1/7/2021   6:36 AM            263 package.json
+-a----          9/6/2020   5:32 PM          28588 yarn.lock
+Get-Label -Identity "Software Group" | Format-List
+copy : untuk mengcopy suatu file/folder 
+chkdsk c: Access Denied as you do not have sufficient privileges or
+the disk may be locked by another process.
+You have to invoke this utility running in elevated mode
+and make sure the disk is unlocked.
+shutdown : Mematikan komputer
+del : menghapus suatu file atau yang lainnya
+echo yazid : yazid
+Get-History | Sort-Object -Property Id -Descending :   Id CommandLine
+  -- -----------
+  32 PS> Get-ChildItem -Path C:\akbar | Sort-Object
+  31 Get-Label -Identity "Engineering Group" | Format-List
+  30 Get-Label
+  29 new-label
+  28 ls
+  27 help
+  26 help
+  25 dir
+  24 date
+  23 $host.ui.RawUI.WindowTitle = "Window Yazid"
+  22 $host.ui.RawUI.WindowTitle = 'Some Name'...
+  21 PS C:\> $Host.UI.RawUI.WindowTitle = "New Window Title"
+  20 PS C:\> $Host.UI.RawUI.WindowTitle = "New Window Title"...
+  19 echo yazid
+  18 hostname
+  17 ipconfig
+  16 title hay
+  15 sort
+  14 echo yazid
+  13 time /t
+  12 time [/t]
+  11 time
+  10 time
+   9 filesystems
+   8 list volume
+   7 active
+   6 label
+   5 load metadata
+   4 ls
+   3 help
+   2 clear
+   1 wkqjdq
+$host.ui.RawUI.WindowTitle = "Window Yazid"
+ipconfig : Windows IP Configuration
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::a846:aa9d:2cb9:7041%14
+   IPv4 Address. . . . . . . . . . . : 192.168.100.31
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.100.1
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+hostname : DESKTOP-PLI9TIL
+format : memformat suatu disk atau Flash disk
+
+
